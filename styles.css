@@ -2,22 +2,35 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   height: 100vh;
-  background-color: #f5f5f5;
+  /* /* background-color: #0000 */ 
+  background-image: url('background.png');  
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  
 }
 
-.container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+.mail_cont{
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 80vh;
 }
 
 .container h1 {
   text-align: center;
+}
+
+.container > p {
+  color: #00BF63;
+  font-weight: bold;
+
 }
 
 form {
@@ -40,13 +53,76 @@ button {
   border-radius: 5px;
 }
 
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+#bootstrapForm{
+  width: 1000px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.waiting_test{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+.waiting_test > p{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.container {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(145, 144, 144, 0.1);
+  margin-left: auto; 
+  margin-right: 100px;
+  margin-top: -50px;
+  border: 2px solid #00BF63;
+}
+
+.btn{
+  background-color: #00BF63; 
+  color: #FFFFFF; 
+  border: none;
+  cursor: pointer;
+ 
+  border-radius: 10%;
+  display: block; 
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px 5px;
+}
+
+.btn:hover{
+  background-color: #027441;
+}
+
+
+.text{
+  color: #ccc;
+}
+
+.title {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+img{
+  width: 7%;
+  position: absolute; 
+  top: 20px; 
+  left: 20px;
+}
+
+.social{
+  margin-left: 100px;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 30px;
+}
+
+.social > #instagram {
+  padding-right: 50px;
 }
